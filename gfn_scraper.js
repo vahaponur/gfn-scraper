@@ -71,7 +71,7 @@ async function getGamesRaw(postdata){
     return innerText
     
 };
-export default async function getGames(){
+export default async function getGfnGames(){
     let jsonData1=await getGamesRaw(POST_JSON1)
     let jsonData2=await getGamesRaw(POST_JSON2)
     let jsonData3=await getGamesRaw(POST_JSON3)
