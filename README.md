@@ -10,6 +10,11 @@ Github CLI
 gh repo clone vahaponur/gfn-scraper
 ```
 
+npm
+```bash
+npm i gfn_scraper
+```
+
 ## Usage
 
 ```
